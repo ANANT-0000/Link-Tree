@@ -19,7 +19,16 @@ function App() {
         <ul className="space-y-4 flex  flex-col   items-center">
           <li>
             <a 
-              href="mailto:manishkumar.96017278@gmail.com"
+              href="https://3d-portfolio-manish-kumar-9601s-projects.vercel.app/"
+              className="flex items-center min-w-40 max-w-56 justify-center p-3 rounded-lg bg-gray-100 hover:bg-gray-400 transition-all duration-300 text-gray-700 hover:text-gray-100 "
+            >
+              <FaRegFolderOpen className='mr-3 text-xl' />
+              <span className="font-medium">Portfolio</span>
+            </a>
+          </li>
+          <li>
+            <a 
+              href="mailto:manish.techsonance@gmail.com"
               className="flex items-center min-w-40 max-w-56 justify-center p-3 rounded-lg bg-gray-100 hover:bg-gray-400 transition-all duration-300 text-gray-700 hover:text-gray-100 "
             >
               <MdEmail className='mr-3 text-xl' />
@@ -40,7 +49,7 @@ function App() {
           
           <li>
             <a 
-              href="https://www.linkedin.com/in/manish-kumar-593326273"
+              href="https://www.linkedin.com/in/manish-kushwaha-316674319/"
               target='_blank'
               rel="noopener noreferrer"
               className="flex items-center min-w-40 max-w-56 justify-center p-3 rounded-lg bg-blue-700 hover:bg-blue-600 transition-all duration-300  text-white hover:text-black"
